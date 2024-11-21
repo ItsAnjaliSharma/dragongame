@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Gamecontainer{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw ;
+}
+
+.Eda{
+  background-image: url(Eda.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  bottom: 0px;
+  left: 52px;
+}
+
+
+.obstacle{
+  width: 277px;
+  height: 265px;
+  background-image: url(dragon.png);
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 44vw;
+}
